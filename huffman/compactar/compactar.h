@@ -52,6 +52,13 @@ No* dequeue(Fila* queue);
 
 No* gerar_arvore(Fila* queue);
 
+ulli contar_bits_totais(const char* nome_arquivo, char** tabela_codigos);
+
+void obter_extensao(const char* nome_arquivo, char* extensao) 
+void tabela_de_codigo(char *tb_codigo[], No *arvore, char *caminho);
+
+void compactar_arquivo (const char* nome_arquivo_original, const char* nome_arquivo_compactado);
+
 void imprimir_frequencia( ulli frequencia[TAM]);
 
 void imprimir_arvore(No* raiz);
